@@ -1,0 +1,45 @@
+body {
+    background-image: url('NB.png');
+    background-size: small;
+    background-repeat: repeat;
+    color: rgb(211, 190, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+    font-size: 18px;
+    margin-top: 500;
+    padding: 50;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px; 
+}
+
+.column {
+    flex: 1; 
+    padding: 20px; 
+    margin-top: 250px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #8a0baa; 
+}
+footer {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    font-size: 25px;
+    border-top: 5px dotted lime;
+}
